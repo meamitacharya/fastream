@@ -1,0 +1,67 @@
+body{
+    background-color: #eee;
+    
+}
+
+.pong-logo {
+  display: inline-block;
+  padding: 9px 0;
+}
+
+
+.pong-logo .text {
+  text-transform: uppercase;
+  font-size: 50px;;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+.pong-logo .red {
+  color: #ff0202;
+}
+
+/*   Links Button */
+
+ .button{
+  position:relative;
+  /* style|variant|weight|size/line-height|family */
+  font: 500 14px Arial;
+  letter-spacing: 0.5px;
+  color:#fff !important;
+  border: 0;
+  border-radius: 5px;
+  cursor:pointer;
+  text-decoration:none;
+  min-width: 100px;
+  margin: 10px 5px;
+  padding:8px 10px;
+  display:inline-block;
+  min-width:80px;
+  text-align:center;
+  white-space:nowrap;
+  background-color: #0092ba;/* for non linear-gradient browsers */
+  background: linear-gradient(to bottom, #24A1C3 5%, #0092BB 100%) repeat scroll 0 0 #24A1C3;
+}
+
+.disclaimer{
+  text-align: center;
+  font-size: 13px;
+  margin: 20px 0 10px 0;
+  width:100%;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 19px;
+  margin-top: 10px;
+  padding: 10px 0 10px 0; 
+}
+
+
+
+
